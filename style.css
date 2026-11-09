@@ -16,16 +16,32 @@ body {
     gap: 30%;
 }
 
-#titulo {}
+menu {
+  text-align: end;
+}
 
-p {}
+.menu ul a{
+    color: rgb(2, 109, 202);
+    font-size: 24px;
+    text-align: right;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+#titulo {
+
+}
 
 .imgcentro {
-    width: 600px;
+    width: 400px;
     height: 500px;
     border-radius: 40px;
     align-items: center;
     
+} 
+
+.texto {
+
 }
 
 
@@ -51,6 +67,4 @@ button {
 footer {
     text-align: center;
 }
-menu {
-  
-}
+
